@@ -6,8 +6,7 @@ public $b;
 public $c;
 public $d;
 
-
-    public function __construct($value1, $value2){
+ public function __construct($value1, $value2){
     $this->a=$value1;
     $this->b=$value2;
 
@@ -29,8 +28,7 @@ if ($this->v3 == "+") {
         elseif ($this->v3== "-") {
     
         $this->c = $this->a - $this->b;
-            echo " Subtraction result is: ". $this->c. "<br>----------------- <br>";
-                
+            echo " Subtraction result is: ". $this->c. "<br>----------------- <br>";   
             }
 
         elseif ($this->v3== "*") {
@@ -48,12 +46,7 @@ if ($this->v3 == "+") {
             }
 
         }
-
 }
-
-
-
-
 
 $v1=20;
 $v2=5;
@@ -62,12 +55,6 @@ $v2=5;
 $res=new result($v1, $v2);
 $res->v3="-";
 $res->allResult();
-
-
-
-
-
-
 
 
 ?>
